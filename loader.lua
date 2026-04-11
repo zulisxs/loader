@@ -1,6 +1,6 @@
 -- Instalar autoexecute
 pcall(function()
-    writefile("autoexec/loader.lua", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/zulisxs/loader/refs/heads/main/loader.lua"))()')
+    writefile("autoexec/test.lua", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/zulisxs/loader/refs/heads/main/loader.lua"))()')
     print("✅ AutoExecute instalado!")
 end)
 
